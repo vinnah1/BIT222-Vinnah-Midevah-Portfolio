@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c854d67ac5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><span>V</span>innah</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <div class="home-img">
+                    <img src="images/backgroundi.jpeg">
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello there, <br>I'm <span>Barasa Vinnah</span> <br>From Kenya</h1>
+        </div>
+    </div>
+    <!--------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!----------about_picture-->
+                    <img src="images/user2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> 
+Hello, I'm Vinnah Midevah, currently a second-year student pursuing 
+Information Technology at Kibabii University. My journey into IT began
+with a natural curiosity for technology, and it has only deepened since. 
+Particularly, I've found my niche in web development, where I pour my 
+heart and soul into creating dynamic and user-friendly digital experiences.
+Beyond the classroom, I spend my time exploring new programming languages, 
+experimenting with different frameworks, and staying updated on the latest 
+trends in the tech world. My goal is simple yet ambitious—to leverage my passion 
+for technology to make a meaningful impact, both in my community and beyond. 
+Let's code our way to a brighter future!
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Developer</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Designing Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-date</span><br>Designing Web/App interfaces</li>
+                        <li><span>2021 -2019</span><br>Assistamt worker at Crivin Technologies</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Date</span><br>BCs in IT at Kibabii University</li>
+                        <li><span>2021 - 2019</span><br>Computer Packages at Crivin Technologies</li>
+                        <li><span>2019 - 2016</span><br>KCSE at Saint Michael's Top Station </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Software Developer</h2>
+                    <p> As a software developer, I design and create programs, 
+                        utilizing my skills to solve complex problems and innovate within the realm of technology.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i  class="fa-solid fa-database"></i>
+                    <h2>Database Administrator</h2>
+                    <p>As a database administrator, I oversee the organization,
+                security, and performance of databases, ensuring efficient
+    data storage and retrieval to meet the needs of the organization.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>In app design, I concentrate on crafting visually appealing and user-friendly 
+                        interfaces, utilizing my skills in wireframing, prototyping, and UI design 
+                        to enhance the overall user experience.</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i  class="fa-brands fa-webflow"></i>
+                    <h2>Web developer</h2>
+                    <p>As a web developer, I design, code, and maintain websites, leveraging my skills
+     in programming languages and web development frameworks to create user-friendly
+ and visually appealing online platforms.</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <h2>Cybersecurity analyst</h2>
+                    <p>As a cybersecurity analyst, I assess and mitigate security risks, monitor for 
+                        potential threats, and implement protective measures to safeguard digital assets 
+                        and data from cyber attacks.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-vr-cardboard"></i></i>
+                    <h2>Virtual assistant</h2>
+                    <p>As a virtual assistant, I provide administrative, technical, and creative 
+                        support remotely, assisting clients with tasks ranging from scheduling 
+                        appointments to managing emails and conducting research, all while working from a remote location.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                    <p>The app enables you to explore various genres of music</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                    <p>The app connects you with talented individuals from around the globe.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Online shopping</h3>
+                    <p>The app facilitates online shopping for you.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/work-4.jpg">
+                    <div class="layer">
+                        <h3>Brochure</h3>
+                    <p>used to provide concise information about a product, service, or organization in a visually appealing format.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-5.jpeg">
+                    <div class="layer">
+                        <h3>Photography</h3>
+                    <p>In photography, capturing moments through my lens allows me to express 
+                        myself creatively and share my unique perspective with the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-6.jpeg">
+                    <div class="layer">
+                        <h3>Graphics</h3>
+                    <p>In graphic design, my role involves using visual elements to communicate 
+                        messages effectively, ensuring that designs resonate with the intended
+             audience and reflect their preferences and needs.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#"class="btn">See more</a>
+    
+        </div>
+    </div>
+<!---------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vinahmidevah@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+254793373515</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-skype"></i></a>
+                </div>
+                <a href="images/My CV.pdf" download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>Vinnah Midevah2024. </i>all rights reserved</p>
+    </div>
+</div>
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
